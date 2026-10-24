@@ -1,0 +1,7 @@
+{
+  "verification": "Fresh copy created without .godot cache or evidence, then source PNG import and native GUI tests ran through run-tests.ps1.",
+  "checks": 14,
+  "failures": 0,
+  "engine": "4.7.1-stable (official)",
+  "shop_source_sha256": "ea57b045b34a04d276ad93ce0efb1075876d6bf1a64a238b7927eb2359a77b1f"
+}

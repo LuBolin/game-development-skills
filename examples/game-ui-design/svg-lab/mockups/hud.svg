@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<title>Vesper combat HUD, 1280 by 720</title>
+<defs><style>text{font-family:Bahnschrift,'Segoe UI',sans-serif;fill:#e8f2ec}.small{font-size:14px;fill:#9fb5ae}.micro{font-size:12px;fill:#9fb5ae}.accent{fill:#8feacb}.panel{fill:#101f24;fill-opacity:.94;stroke:#36524f}.bar{fill:#293c3d}</style></defs>
+<g id="gameplay-scene">
+<rect width="1280" height="720" fill="#1c3036"/>
+<circle cx="965" cy="154" r="47" fill="#62766c"/>
+<path d="M0 265L128 189 243 279 370 224 470 298 637 230 807 292 948 214 1130 271 1280 200V430H0Z" fill="#2a4143"/>
+<path d="M0 334L195 287 360 343 549 292 716 339 892 297 1087 346 1280 285V453H0Z" fill="#36524f"/>
+<path d="M0 369H1280V720H0Z" fill="#263d3d"/>
+<path d="M464 720L588 369H691L825 720Z" fill="#42605a"/>
+<path d="M489 720L603 369H612L517 720ZM772 720L671 369H679L801 720Z" fill="#779785"/>
+<path d="M547 568H737M574 475H708M589 419H690" stroke="#5a786b" stroke-width="2"/>
+<g fill="#172d32" stroke="#48635d" stroke-width="2">
+<path d="M0 332L167 309 231 349V487L0 538Z"/><path d="M57 236L167 229V309L57 325Z"/>
+<path d="M1028 298L1280 339V554L1005 460Z"/><path d="M1099 217L1211 239V326L1099 308Z"/>
+</g>
+<g fill="#87d5bb"><path d="M27 356L161 341V348L27 365Z"/><path d="M1047 329L1243 361V368L1047 337Z"/><rect x="1130" y="261" width="49" height="4"/></g>
+<g id="relay"><path d="M608 269L641 252 675 269V377H608Z" fill="#132c31" stroke="#628d77" stroke-width="2"/><path d="M641 252V377M608 294L641 308 675 294" fill="none" stroke="#4a7965" stroke-width="2"/><rect x="635" y="277" width="12" height="49" fill="#a3e9bc"/><path d="M631 243L641 234 651 243" fill="none" stroke="#a3e9bc" stroke-width="2"/></g>
+<g id="drone"><path d="M745 368L764 359 782 368 764 380Z" fill="#15272d" stroke="#e69a76" stroke-width="2"/><path d="M733 366H748M779 366H795" stroke="#e69a76" stroke-width="3"/><circle cx="764" cy="370" r="3" fill="#f5ac82"/></g>
+<g id="player"><ellipse cx="625" cy="548" rx="33" ry="10" fill="#1b3033"/><path d="M615 500L632 499 638 527 628 541 616 531 606 522Z" fill="#14282e" stroke="#89bda9" stroke-width="2"/><circle cx="625" cy="491" r="9" fill="#1b333a" stroke="#89bda9" stroke-width="2"/><path d="M632 506L648 516 663 509M619 535L612 555M630 536L636 554" fill="none" stroke="#15282f" stroke-width="8"/><path d="M617 506L623 523" stroke="#91e0be" stroke-width="3"/></g>
+</g>
+<g id="objective"><path d="M32 28V83" stroke="#8feacb" stroke-width="3"/><text x="48" y="44" class="micro accent">OUTPOST 07</text><text x="48" y="69" font-size="22">Breach the relay</text><text x="48" y="91" class="small">Reach the uplink</text></g>
+<g id="world-marker"><text x="641" y="207" text-anchor="middle" class="micro accent">UPLINK</text><text x="641" y="225" text-anchor="middle" font-size="16">64 m</text></g>
+<g id="crosshair" fill="none" stroke="#c9e1d3" stroke-opacity=".7"><path d="M627 356V351H632M648 351H653V356M653 368V373H648M632 373H627V368"/></g>
+<g id="vitals"><rect x="32" y="574" width="294" height="114" class="panel"/><rect x="32" y="574" width="3" height="114" fill="#8feacb"/><text x="48" y="598" font-size="14" class="accent">VESPER / 04</text><text x="48" y="624" class="small">HEALTH</text><text x="310" y="624" font-size="14" text-anchor="end">86 / 100</text><rect x="48" y="634" width="262" height="6" class="bar"/><rect x="48" y="634" width="225" height="6" fill="#b3dfb3"/><text x="48" y="660" class="small">ENERGY</text><text x="310" y="660" font-size="14" text-anchor="end">60 / 100</text><rect x="48" y="670" width="262" height="6" class="bar"/><rect x="48" y="670" width="157" height="6" fill="#8feacb"/></g>
+<g id="pulse-ability"><rect x="1018" y="598" width="230" height="58" fill="#183f40" stroke="#8feacb" stroke-width="2"/><text x="1038" y="633" font-size="14" class="accent">Q</text><text x="1074" y="634" font-size="20">PULSE</text><text x="1229" y="633" text-anchor="end" font-size="14" class="accent">25 E</text><text x="1248" y="680" text-anchor="end" class="small">Disrupt nearby drones</text></g>
+</svg>

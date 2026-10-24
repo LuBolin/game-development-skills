@@ -1,0 +1,314 @@
+{
+	"checks": 61,
+	"engine": "4.7.1-stable (official)",
+	"failures": 0,
+	"input": "Synthetic mouse, keyboard and ui_accept actions through the actual Viewport GUI input path. No physical gamepad or touch hardware.",
+	"renderer": "gl_compatibility",
+	"results": [
+		{
+			"check": "hud reference size: visible content inside viewport []",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "initial keyboard focus",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "Tab retains usable focus",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "native control exists: AbilityButton",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "mouse activates Pulse",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "Pulse consumes energy",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "repeated use never spends below zero",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "insufficient energy disables Pulse",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "disabled Pulse ignores clicks",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "hud alternate aspect ratio: visible content inside viewport []",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "actual viewport resized to 1024x768",
+			"passed": true,
+			"screen": "hud"
+		},
+		{
+			"check": "inventory reference size: visible content inside viewport []",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "initial keyboard focus",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "Tab retains usable focus",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "native control exists: FirstItemButton",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "native control exists: LongItemButton",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "native control exists: EquipButton",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "Equip applies the selected item",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "grid selection updates long-name item",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "long item state: visible content inside viewport []",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "native control exists: CloseButton",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "Close dismisses inventory",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "native control exists: OpenButton",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "reopen action appears",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "native control exists: OpenButton",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "inventory reopens",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "reopening restores selected item focus",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "inventory alternate aspect ratio: visible content inside viewport []",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "actual viewport resized to 1024x768",
+			"passed": true,
+			"screen": "inventory"
+		},
+		{
+			"check": "pause reference size: visible content inside viewport []",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "initial keyboard focus",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "Tab retains usable focus",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "opening pause actually pauses SceneTree",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "native control exists: SettingsButton",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "ui_accept opens Settings while paused",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "native control exists: VolumeSlider",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "keyboard changes native volume slider",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "game simulation stays stopped through settings interaction",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "settings state: visible content inside viewport []",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "native control exists: BackButton",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "Back restores pause menu",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "Back restores Settings focus",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "native control exists: ResumeButton",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "Resume unpauses SceneTree",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "game simulation resumes",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "pause alternate aspect ratio: visible content inside viewport []",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "actual viewport resized to 1024x768",
+			"passed": true,
+			"screen": "pause"
+		},
+		{
+			"check": "shop reference size: visible content inside viewport []",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "initial keyboard focus",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "Tab retains usable focus",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "native control exists: FirstItemButton",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "native control exists: BuyButton",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "buying adds one item",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "buying deducts the displayed price",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "sold-out purchase is disabled",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "disabled buy cannot charge or duplicate stock",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "native control exists: PremiumItemButton",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "unaffordable selection disables purchase",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "wallet never becomes negative",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "shop alternate aspect ratio: visible content inside viewport []",
+			"passed": true,
+			"screen": "shop"
+		},
+		{
+			"check": "actual viewport resized to 1024x768",
+			"passed": true,
+			"screen": "shop"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+# Shared shop brief
+
+Create a single-screen woodland RPG shop named Moonroot Apothecary. A friendly fox herbalist and shelves of herbs occupy roughly the left third of the scene. The shop UI occupies the rest. Aim for a cozy storybook illustration style with warm ivory, moss green, ink outlines, and copper accents. Keep labels short and the primary action compact. Typography, spacing, selection, and focus must remain readable at normal play size. This is an assumed art direction for this test, not a preference imposed on future games.
+
+The player starts with 72 coins. Select Ember tonic, priced at 28 coins with two in stock, or Moonstone, priced at 120 coins. Selecting an item updates its details and purchase state. Purchasing Ember tonic deducts coins, adds one owned item, and reduces stock. Sold-out and unaffordable items cannot be purchased. Preserve the fox's proportions at different aspect ratios. Target 1280x720 and also support 1024x768. Mouse and keyboard input; visible initial focus. No persistence, real payment, networking, or gameplay systems.
+
+Use native Godot Controls for functional labels and interaction. Named Controls: FirstItemButton, PremiumItemButton, BuyButton. get_test_state() returns gold, owned, stock, and selected, where selected is tonic or moonstone. The existing runner supplies native mouse, key, and ui_accept events, captures both sizes, and validates buying, stock, affordability, focus, and viewport bounds. This example was tested with Godot 4.7.1. Existing runtime project files and tests should be reused.
+
+The direct branch is built from this brief without image generation or a mockup stage. The hybrid branch uses a generated concept and production illustration, an SVG layout reference, and native Godot implementation. Both can inspect and correct their running UI. The comparison is qualitative; generation time and revision effort are not controlled.

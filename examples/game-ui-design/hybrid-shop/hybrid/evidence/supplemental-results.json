@@ -1,0 +1,87 @@
+{
+	"checks": 20,
+	"failures": 0,
+	"input": "Viewport.push_input with Tab, Enter and ui_accept. No signal emission.",
+	"results": [
+		{
+			"check": "initial focus is the selected tonic",
+			"passed": true
+		},
+		{
+			"check": "reference item rect matches SVG",
+			"passed": true
+		},
+		{
+			"check": "reference details rect matches SVG",
+			"passed": true
+		},
+		{
+			"check": "compact Buy rect matches SVG",
+			"passed": true
+		},
+		{
+			"check": "Tab reaches Moonstone",
+			"passed": true
+		},
+		{
+			"check": "ui_accept selects Moonstone and disables unaffordable purchase",
+			"passed": true
+		},
+		{
+			"check": "Tab skips disabled Buy and wraps to tonic",
+			"passed": true
+		},
+		{
+			"check": "Enter selects tonic and enables purchase",
+			"passed": true
+		},
+		{
+			"check": "Tab reaches enabled Buy",
+			"passed": true
+		},
+		{
+			"check": "ui_accept buys one tonic through GUI focus",
+			"passed": true
+		},
+		{
+			"check": "Enter buys final stock and disables Buy",
+			"passed": true
+		},
+		{
+			"check": "sold-out keyboard input leaves wallet and inventory unchanged",
+			"passed": true
+		},
+		{
+			"check": "(1280, 720) fox uses native aspect-fit",
+			"passed": true
+		},
+		{
+			"check": "(1280, 720) keeps Buy at 160x48",
+			"passed": true
+		},
+		{
+			"check": "(1280, 720) artwork and controls fit viewport: []",
+			"passed": true
+		},
+		{
+			"check": "(1280, 720) header and description fit their controls",
+			"passed": true
+		},
+		{
+			"check": "(1024, 768) fox uses native aspect-fit",
+			"passed": true
+		},
+		{
+			"check": "(1024, 768) keeps Buy at 160x48",
+			"passed": true
+		},
+		{
+			"check": "(1024, 768) artwork and controls fit viewport: []",
+			"passed": true
+		},
+		{
+			"check": "(1024, 768) header and description fit their controls",
+			"passed": true
+		}
+	]
+}

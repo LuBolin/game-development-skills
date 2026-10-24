@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game UI Design"
+  short_description: "Design, inspect, and implement game UI visually"
+  default_prompt: "Use $game-ui-design to design or refine this game screen, inspect its rendered mockup, and implement the chosen design in the existing game UI."

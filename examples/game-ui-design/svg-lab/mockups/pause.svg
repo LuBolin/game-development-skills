@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <title>North Ridge pause menu</title>
+  <defs>
+    <style>text{font-family:Bahnschrift,Arial,sans-serif;fill:#e8eee8}.meta{font:13px Consolas,monospace;fill:#8da69c}.action{font-size:22px}</style>
+    <g id="pine"><path d="M0,-34 -22,8 -12,8 -28,30 28,30 12,8 22,8Z" fill="#203d36"/><path d="M0,-34 0,30 28,30 12,8 22,8Z" fill="#28453b"/></g>
+  </defs>
+  <g id="paused-gameplay">
+    <rect width="1280" height="720" fill="#172d29"/>
+    <path d="M430,720 846,0 1044,0 620,720Z" fill="#35443b"/>
+    <path d="M476,720 891,0M578,720 995,0" stroke="#596052" stroke-width="2" opacity=".45"/>
+    <path d="M680,502 1280,350 1280,456 616,632Z" fill="#2d3d34"/>
+    <path d="M824,174 1122,174 1122,391 824,391Z" fill="#101f1e"/>
+    <rect x="837" y="160" width="274" height="214" fill="#3d5147"/>
+    <rect x="855" y="178" width="238" height="178" fill="#30433a"/>
+    <path d="M855,236H1093M855,296H1093M914,178V356M1034,178V356" stroke="#4b5c4f" stroke-width="2"/>
+    <rect x="948" y="356" width="50" height="18" fill="#142724"/>
+    <rect x="1140" y="310" width="50" height="66" fill="#405046"/><rect x="1146" y="316" width="38" height="54" fill="#2a3c33"/>
+    <path d="M786,121H1179V421H1125M803,121V86M932,121V86M1059,121V86M1179,121V86" fill="none" stroke="#607063" stroke-width="3" opacity=".45"/>
+    <use href="#pine" x="678" y="90"/><use href="#pine" x="597" y="172"/><use href="#pine" x="701" y="255"/><use href="#pine" x="531" y="317"/>
+    <use href="#pine" x="1186" y="94"/><use href="#pine" x="1256" y="169"/><use href="#pine" x="1196" y="572"/><use href="#pine" x="1115" y="643"/><use href="#pine" x="971" y="662"/>
+    <use href="#pine" x="535" y="623"/><use href="#pine" x="437" y="529"/><use href="#pine" x="341" y="163"/><use href="#pine" x="294" y="623"/>
+    <circle cx="1007" cy="489" r="70" fill="#b48a42" opacity=".055"/><circle cx="1007" cy="489" r="40" fill="#b48a42" opacity=".08"/>
+    <rect x="986" y="472" width="42" height="34" fill="#503f2d"/><path d="M995,479H1019V500H995Z" fill="#9c7137"/>
+    <circle cx="779" cy="480" r="22" fill="#d4bc77" opacity=".10"/><path d="M767,479 778,468 793,478 787,493 774,494Z" fill="#9dafa1"/><circle cx="783" cy="470" r="6" fill="#c0c6ae"/><path d="M787,478 808,467" stroke="#253730" stroke-width="5"/>
+    <rect width="1280" height="720" fill="#071512" opacity=".19"/>
+    <rect width="490" height="720" fill="#0b1c19" opacity=".88"/>
+    <rect x="490" width="100" height="720" fill="#0b1c19" opacity=".38"/>
+  </g>
+  <g id="pause-menu">
+    <text class="meta" x="80" y="232">NORTH RIDGE / 06</text>
+    <text x="76" y="301" font-size="56" font-weight="600">PAUSED</text>
+    <rect x="80" y="344" width="224" height="50" fill="#ffffff" fill-opacity=".03" stroke="#dbbd79" stroke-width="2"/>
+    <text class="action" x="100" y="377">Resume</text>
+    <text class="action" x="100" y="439">Settings</text>
+    <path d="M80,493H120" stroke="#809589" stroke-width="1" opacity=".6"/>
+  </g>
+</svg>

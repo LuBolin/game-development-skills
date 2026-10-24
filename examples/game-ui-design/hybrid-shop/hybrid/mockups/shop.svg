@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="720" viewBox="0 0 1280 720">
+  <style>text{font-family:'Segoe UI',sans-serif;fill:#3e432f}.serif{font-family:Georgia,serif}.muted{fill:#756b52;font-size:18px}.small{fill:#756b52;font-size:15px}</style>
+  <rect width="1280" height="720" fill="#f4ecd7"/>
+  <path d="M492 40V680" stroke="#c9bc99"/>
+  <g id="merchant-art">
+    <rect x="26" y="70" width="440" height="550" rx="5" fill="#e7dcc0" stroke="#95845f"/>
+    <image href="../assets/fox-portrait.png" x="30" y="74" width="432" height="542" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="heading">
+    <text x="528" y="98" class="serif" font-size="36">Moonroot Apothecary</text>
+    <text x="528" y="128" class="muted">Provisions for the path ahead</text>
+    <rect x="1110" y="57" width="130" height="46" rx="4" fill="#eee2c4" stroke="#a59165"/>
+    <text x="1175" y="87" text-anchor="middle" font-size="20">72 coins</text>
+    <path d="M528 153H1240" stroke="#b9a77e"/>
+  </g>
+  <g id="tonic-selected">
+    <rect x="528" y="180" width="348" height="128" rx="5" fill="#e3e3c3" stroke="#576746" stroke-width="2"/>
+    <image href="../assets/ember-tonic.png" x="544" y="193" width="96" height="100" preserveAspectRatio="xMidYMid meet"/>
+    <text x="656" y="231" class="serif" font-size="25">Ember tonic</text>
+    <text x="656" y="266" class="muted">28 coins</text>
+  </g>
+  <g id="moonstone">
+    <rect x="892" y="180" width="348" height="128" rx="5" fill="#f1e7ce" stroke="#b5a583"/>
+    <image href="../assets/moonstone.png" x="908" y="193" width="96" height="100" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1020" y="231" class="serif" font-size="25">Moonstone</text>
+    <text x="1020" y="266" class="muted">120 coins</text>
+  </g>
+  <g id="item-detail">
+    <rect x="528" y="338" width="712" height="284" rx="5" fill="#f6eedb" stroke="#b5a583"/>
+    <image href="../assets/ember-tonic.png" x="548" y="366" width="200" height="226" preserveAspectRatio="xMidYMid meet"/>
+    <text x="778" y="398" class="serif" font-size="32">Ember tonic</text>
+    <text x="778" y="441" class="muted">Restores 40 warmth.</text>
+    <path d="M778 470H1208" stroke="#c9bc99"/>
+    <text x="778" y="507" class="muted">2 available</text>
+    <g id="buy-action"><rect x="1048" y="544" width="160" height="48" rx="4" fill="#526345"/><text x="1128" y="575" text-anchor="middle" font-size="20" style="fill:#fff8e4">Buy · 28</text></g>
+  </g>
+  <text x="528" y="656" class="small">Tab to browse · Enter to select</text>
+</svg>
